@@ -36,28 +36,20 @@ public class CursomcApplication implements CommandLineRunner {
 
 	@Autowired
 	private CategoriaRepository categoriaRepository;
-	
 	@Autowired
 	private ProdutoRepository produtoRepository;
-	
 	@Autowired
 	private EstadoRepository estadoRepository;
-	
 	@Autowired
 	private CidadeRepository cidadeRepository;
-	
 	@Autowired
 	private ClienteRepository clienteRepository;
-	
 	@Autowired
 	private EnderecoRepository enderecoRepository;
-
 	@Autowired
 	private PedidoRepository pedidoRepository;
-	
 	@Autowired
 	private PagamentoRepository pagamentoRepository;
-	
 	@Autowired
 	private ItemPedidoRepository itemPedidoRepository;
 	
